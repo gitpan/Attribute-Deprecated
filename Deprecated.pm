@@ -3,7 +3,7 @@ package Attribute::Deprecated;
 require v5.6;
 use strict;
 use warnings;
-our $VERSION = sprintf('%d.%02d', q$Revision: 1.3 $ =~ /(\d+)\.(\d+)/);
+our $VERSION = '1.04';
 
 use Attribute::Handlers;
 
@@ -50,10 +50,8 @@ that to insert explicit warnings.
 =head1 AUTHOR
 
 Marty Pauley E<lt>marty@kasei.comE<gt>,
-based on code by
-Marcel GrE<uuml>nauer E<lt>marcel@codewerk.comE<gt>
-and
-Damian Conway E<lt>damian@conway.orgE<gt>
+based on code by Marcel GrE<uuml>nauer E<lt>marcel@codewerk.comE<gt>
+and Damian Conway E<lt>damian@conway.orgE<gt>
 
 =head1 COPYRIGHT
 
